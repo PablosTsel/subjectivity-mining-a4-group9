@@ -207,7 +207,7 @@ The baseline is built with scikit-learn \citep{pedregosa2011scikit}. Each messag
 
 \subsection{BERT}
 
-BERT was pre-trained on English books and Wikipedia \citep{devlin2019bert}. The cased version is used here, which keeps capital letters. This can help with tweets, where words in capitals often mean shouting. The model is trained for 3 epochs with a batch size of 16, a learning rate of 4e-5 and a maximum length of 128 tokens. All other settings are the Simple Transformers defaults, so there is no weight decay, 6 percent warmup and mixed precision. The training was done on a Google Colab GPU.
+BERT was pre-trained on English books and Wikipedia \citep{devlin2019bert}. The cased version is used here, which keeps capital letters. This can help with tweets, where words in capitals often mean shouting. The model is trained for 3 epochs with a batch size of 16, a learning rate of 4e-5 and a maximum length of 128 tokens. All other settings are the Simple Transformers defaults. This means 6 percent warmup and mixed precision, but no weight decay. The training was done on a Google Colab GPU.
 
 \subsection{HateBERT}
 
@@ -452,8 +452,12 @@ The assignment was split into four parts, so that each member could work on thei
 \section{Code and files}
 % ------------------------------------------------------------------
 
-The notebook and all files are available at \url{LINK-TO-SHARED-FOLDER}.
+The notebook and all files are available in this GitHub repository.
 
-The folder contains the final notebook, A4-notebook-Group9-FINAL.ipynb, which has the code and outputs of all four parts, and the three dataset files. Each part has its own folder with its scripts, its predictions for both settings, its scores and its confusion matrices. The main folder also has the combined scores in A4\_all\_model\_metrics.csv, together with the tables and figures used in this report. The trained HateBERT and fBERT models were saved but are not included, because each one is about 420 MB.
+\begin{center}
+\url{https://github.com/PablosTsel/subjectivity-mining-a4-group9}
+\end{center}
+
+The repository contains the final notebook, A4-notebook-Group9-FINAL.ipynb, which has the code and outputs of all four parts, and the three dataset files. Each part has its own folder with its predictions for both settings and its scores, and the HateBERT and fBERT folders include their training scripts and logs. The main folder has the combined scores in A4\_all\_model\_metrics.csv, together with the tables and figures used in this report. The trained HateBERT and fBERT models were saved but are not included, because each one is about 420 MB.
 
 \end{document}
