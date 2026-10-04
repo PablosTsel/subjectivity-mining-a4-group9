@@ -1,0 +1,25 @@
+model,setting,length_group,n,error_rate
+Logistic Regression,In-domain,0-15 words,275,0.22181818181818183
+Logistic Regression,In-domain,16-30 words,305,0.25901639344262295
+Logistic Regression,In-domain,31+ words,280,0.29642857142857143
+Logistic Regression,Cross-domain,0-15 words,275,0.38545454545454544
+Logistic Regression,Cross-domain,16-30 words,305,0.5081967213114754
+Logistic Regression,Cross-domain,31+ words,280,0.5464285714285714
+BERT,In-domain,0-15 words,275,0.1709090909090909
+BERT,In-domain,16-30 words,305,0.17704918032786884
+BERT,In-domain,31+ words,280,0.18928571428571428
+BERT,Cross-domain,0-15 words,275,0.18545454545454546
+BERT,Cross-domain,16-30 words,305,0.23278688524590163
+BERT,Cross-domain,31+ words,280,0.26785714285714285
+HateBERT,In-domain,0-15 words,275,0.13090909090909092
+HateBERT,In-domain,16-30 words,305,0.16393442622950818
+HateBERT,In-domain,31+ words,280,0.18214285714285713
+HateBERT,Cross-domain,0-15 words,275,0.19636363636363635
+HateBERT,Cross-domain,16-30 words,305,0.18360655737704917
+HateBERT,Cross-domain,31+ words,280,0.21071428571428572
+fBERT,In-domain,0-15 words,275,0.15272727272727274
+fBERT,In-domain,16-30 words,305,0.15081967213114755
+fBERT,In-domain,31+ words,280,0.175
+fBERT,Cross-domain,0-15 words,275,0.13090909090909092
+fBERT,Cross-domain,16-30 words,305,0.16393442622950818
+fBERT,Cross-domain,31+ words,280,0.1392857142857143

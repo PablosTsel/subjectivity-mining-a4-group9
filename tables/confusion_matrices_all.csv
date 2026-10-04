@@ -1,0 +1,9 @@
+model,setting,TN,FP,FN,TP
+Logistic Regression,In-domain,489,131,92,148
+Logistic Regression,Cross-domain,282,338,76,164
+BERT,In-domain,536,84,70,170
+BERT,Cross-domain,511,109,88,152
+HateBERT,In-domain,552,68,69,171
+HateBERT,Cross-domain,539,81,88,152
+fBERT,In-domain,549,71,66,174
+fBERT,Cross-domain,578,42,83,157

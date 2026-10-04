@@ -1,0 +1,7 @@
+setting,model_a,model_b,only_a_correct,only_b_correct,mcnemar_exact_p
+In-domain,fBERT,HateBERT,40,40,1.0
+In-domain,fBERT,BERT,66,49,0.1353504098348154
+In-domain,HateBERT,BERT,64,47,0.12847543208575962
+Cross-domain,fBERT,HateBERT,79,35,4.609247371251201e-05
+Cross-domain,fBERT,BERT,109,37,1.980365676693408e-09
+Cross-domain,HateBERT,BERT,97,69,0.0357990157190587

@@ -1,0 +1,16 @@
+
+Map:   0%|          | 0/860 [00:00<?, ? examples/s]
+Map: 100%|##########| 860/860 [00:00<00:00, 8587.54 examples/s]
+C:\Users\marti\Documents\Codex\2026-09-30\me-x20\work\hatebert-env\Lib\site-packages\simpletransformers\classification\classification_utils.py:344: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  labels = torch.tensor(labels, dtype=torch.long)
+C:\Users\marti\Documents\Codex\2026-09-30\me-x20\work\hatebert-env\Lib\site-packages\simpletransformers\classification\classification_model.py:2260: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast():
+{'setting': 'in_domain', 'rows': 860, 'all_predictions_match': True, 'max_absolute_logit_difference': 6.245004513516506e-17, 'model_hashes_match': True}
+
+Map:   0%|          | 0/860 [00:00<?, ? examples/s]
+Map: 100%|##########| 860/860 [00:00<00:00, 10309.42 examples/s]
+C:\Users\marti\Documents\Codex\2026-09-30\me-x20\work\hatebert-env\Lib\site-packages\simpletransformers\classification\classification_utils.py:344: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  labels = torch.tensor(labels, dtype=torch.long)
+C:\Users\marti\Documents\Codex\2026-09-30\me-x20\work\hatebert-env\Lib\site-packages\simpletransformers\classification\classification_model.py:2260: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast():
+{'setting': 'cross_domain', 'rows': 860, 'all_predictions_match': True, 'max_absolute_logit_difference': 8.760353553682876e-17, 'model_hashes_match': True}

@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "setting": "in_domain",
+      "rows": 860,
+      "all_predictions_match": true,
+      "max_absolute_logit_difference": 6.245004513516506e-17,
+      "model_hashes_match": true
+    },
+    {
+      "setting": "cross_domain",
+      "rows": 860,
+      "all_predictions_match": true,
+      "max_absolute_logit_difference": 8.760353553682876e-17,
+      "model_hashes_match": true
+    }
+  ]
+}

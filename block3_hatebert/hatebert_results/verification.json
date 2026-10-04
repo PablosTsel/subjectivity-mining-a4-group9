@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "setting": "in_domain",
+      "rows_verified": 860,
+      "metrics_recomputed": true,
+      "data_hashes_match": true,
+      "confusion_matrix_matches": true
+    },
+    {
+      "setting": "cross_domain",
+      "rows_verified": 860,
+      "metrics_recomputed": true,
+      "data_hashes_match": true,
+      "confusion_matrix_matches": true
+    }
+  ]
+}

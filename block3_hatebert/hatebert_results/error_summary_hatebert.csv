@@ -1,0 +1,3 @@
+setting,TN,FP,FN,TP,false_positive_rate,false_negative_rate,predicted_offensive_percent
+in_domain,552,68,69,171,0.10967741935483871,0.2875,27.790697674418606
+cross_domain,539,81,88,152,0.13064516129032258,0.36666666666666664,27.093023255813954

@@ -1,0 +1,5 @@
+outcome,n
+both_correct,653
+both_wrong,99
+only_in_domain_correct,70
+only_cross_domain_correct,38
